@@ -5,16 +5,27 @@
   <img src="./figures/overview.jpg" alt="" width="50%">
 </p>
 
-Public pytorch implementation for our paper [Patronus: Bringing Transparency to Diffusion Models with Prototypes](https://arxiv.org/abs/2503.22782). 
+Public pytorch implementation for our paper [Patronus: Interpretable Diffusion Models with Prototypes](https://nina-weng.github.io/patronus.github.io/).
+
+<span style="color: blue"> -- Update (March 2026) -- </span> 
+* This work has been accepted to ICLR 2026.
+* The pretrained model is available via [Google Drive](https://drive.google.com/drive/folders/1QDCWEG-FWF0nlt7Py4IL3ghgtcfElaJc?usp=sharing). 
+To use it: 
+1. Download the .zip file from the provided link.
+2. Extract the contents and place them in the repository directory.
+3. Note that the directory structure is nested, as it is designed to support multiple training configurations across different datasets.
+
+* A project page with a live demo is available at [our project page](https://nina-weng.github.io/patronus.github.io/). 
+
+<span style="color: blue"> -- End of Update -- </span> 
 
 If you find this code helpful in your research, please cite the following paper:
 
 ```
-@article{weng2025patronus,
-  title={Patronus: Bringing Transparency to Diffusion Models with Prototypes},
+@inproceedings{wengpatronus,
+  title={Patronus: Interpretable Diffusion Models with Prototypes},
   author={Weng, Nina and Feragen, Aasa and Bigdeli, Siavash},
-  journal={arXiv preprint arXiv:2503.22782},
-  year={2025}
+  booktitle={The Fourteenth International Conference on Learning Representations}
 }
 ```
 
