@@ -7,17 +7,6 @@
 
 Public pytorch implementation for our paper [Patronus: Interpretable Diffusion Models with Prototypes](https://nina-weng.github.io/patronus.github.io/).
 
-<span style="color: blue"> -- Update (March 2026) -- </span> 
-* This work has been accepted to ICLR 2026.
-* The pretrained model is available via [Google Drive](https://drive.google.com/drive/folders/1QDCWEG-FWF0nlt7Py4IL3ghgtcfElaJc?usp=sharing). 
-To use it: 
-1. Download the .zip file from the provided link.
-2. Extract the contents and place them in the repository directory.
-3. Note that the directory structure is nested, as it is designed to support multiple training configurations across different datasets.
-
-* A project page with a live demo is available at [our project page](https://nina-weng.github.io/patronus.github.io/). 
-
-<span style="color: blue"> -- End of Update -- </span> 
 
 If you find this code helpful in your research, please cite the following paper:
 
@@ -28,6 +17,21 @@ If you find this code helpful in your research, please cite the following paper:
   booktitle={The Fourteenth International Conference on Learning Representations}
 }
 ```
+
+
+✨ *Update (March 2026)*
+* This work has been accepted to ICLR 2026.
+* The pretrained model is available via [Google Drive](https://drive.google.com/drive/folders/1QDCWEG-FWF0nlt7Py4IL3ghgtcfElaJc?usp=sharing). 
+To use it: 
+  1. Download the .zip file of the required dataset from the provided link.
+  2. Extract the archive and place the contents under `./records/diffusion/patronus/`. The directory structure should look like: `YOUR_REPO_PATH/records/diffusion/patronus/DATASET/...`.
+  3. Note that the directory structure is nested, as it is designed to support multiple training configurations across different datasets.
+* A project page with a live demo is available at [our project page](https://nina-weng.github.io/patronus.github.io/). 
+
+✨ *End of the update*
+
+
+
 
 ----------------------------
 
